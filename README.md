@@ -1,6 +1,6 @@
 
 # LLM4MEM
-🎉 This paper has been accepted as the NLPCC 2025 !
+🎉 This paper has been accepted to the NLPCC 2025 !
 
 LLM4MEM: Unlocking the Power of Large Lanaguage Models for Multi-Table Entity Matching, an unsupervised framework that utilizes a Large Language Model (LLM) for multi table matching, with three key innovations: 
 1) multi-style prompt-enhances attribute coordination through semantic regularization supported by LLM to dynamically align heterogeneous patterns.
