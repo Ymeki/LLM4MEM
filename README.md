@@ -1,6 +1,6 @@
 
 # LLM4MEM
-🎉 This paper has been accepted as the NLPCC 2025 poster paper!
+🎉 This paper has been accepted as the NLPCC 2025 !
 
 LLM4MEM: Unlocking the Power of Large Lanaguage Models for Multi-Table Entity Matching, an unsupervised framework that utilizes a Large Language Model (LLM) for multi table matching, with three key innovations: 
 1) multi-style prompt-enhances attribute coordination through semantic regularization supported by LLM to dynamically align heterogeneous patterns.
@@ -8,28 +8,27 @@ LLM4MEM: Unlocking the Power of Large Lanaguage Models for Multi-Table Entity Ma
 3) density-aware pruning eliminates noise and false positive information through spatial constraint optimization.
 
 ## How 2 Start
---
 creat a new env and pip Requirements:
 ```
 pyhton-sklearn,pandas,numpy,sentence-transformers,networkx,joblib,hnswlib,tyro,pyfunctional,loguru,vllm,openAI,modelscope
 ```
 
--- download LLM model
+download LLM model
 ```py
 from modelscope import snapshot_download
 model_dir = snapshot_download('Qwen-7B', local_dir='infor of LLM')
 ```
--- dataset
+dataset
 ```
 download from
 https://drive.google.com/drive/folders/1ymzl7MDuaJLv5V_TNqcc8ooR4V2uW4g1?usp=drive_link
 ```
---MPLAC
+MPLAC
 ```sh
 sh run.sh
 python MPLAC/submain.py
 ```
---TCEM and PDM
+TCEM and PDM
 ```bash
 CUDA_VISIBLE_DEVICES=0 python main.py --name Music-20
 ```
